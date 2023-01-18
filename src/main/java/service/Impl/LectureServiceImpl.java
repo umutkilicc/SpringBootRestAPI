@@ -36,29 +36,49 @@ public class LectureServiceImpl implements LectureService {
     }
 
     @Override
-    public Optional<LectureDto> getByID(Integer id) {
-        return Optional.empty();
-    }
+    public Optional<LectureDto> getById(Integer id) {
 
-    @Override
-    public LectureDto add(LectureDto data) {
-        return null;
-    }
-
-    @Override
-    public void delete(LectureDto data) {
+        Optional<LectureDto> lectureDto = Optional.of(new LectureDto());
+        Optional<Lecture> lecture = lectureRepository.findById(id);
+        entityToDto(lecture.orElseGet(Lecture::new), lectureDto.get());
+        return lectureDto;
 
     }
 
     @Override
-    public LectureDto update(LectureDto data) {
-        return null;
+    public LectureDto add(LectureDto lectureDto) {
+        Lecture lecture = new Lecture();
+        dtoToEntity(lectureDto, lecture);
+        lectureRepository.save(lecture);
+        entityToDto(lecture, lectureDto);
+        return lectureDto;
     }
 
-    protected void entityToDto(Lecture lecture, LectureDto lectureDto) {
+    @Override
+    public void delete(LectureDto lectureDto) {
+        Lecture lecture = new Lecture();
+        dtoToEntity(lectureDto, lecture);
+        lectureRepository.delete(lecture);
+    }
 
+    @Override
+    public LectureDto update(LectureDto lectureDto) {
+        Optional<LectureDto> optinalLecture = Optional.of(new LectureDto());
+        Lecture lecture = new Lecture();
+        dtoToEntity(optinalLecture.get(), lecture);
+        entityToDto(lectureRepository.save(lecture), lectureDto);
+        return lectureDto;
+    }
+
+    protected void entityToDto(Lecture lecture, LectureDto lectureDto)
+    {
         lectureDto.setId(lecture.getId());
         lectureDto.setLectureName(lecture.getLectureName());
+    }
 
+    protected void dtoToEntity(LectureDto lectureDto, Lecture lecture)
+    {
+        lecture.setId(lectureDto.getId());
+        lecture.setLectureName(lectureDto.getLectureName());
     }
 }

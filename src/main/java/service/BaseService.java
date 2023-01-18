@@ -6,7 +6,7 @@ import java.util.Optional;
 public interface BaseService<T>{
 
     List<T> getAll();
-    Optional<T> getByID(Integer id);
+    Optional<T> getById(Integer id);
     T add(T data);
     void delete(T data);
     T update(T data);
