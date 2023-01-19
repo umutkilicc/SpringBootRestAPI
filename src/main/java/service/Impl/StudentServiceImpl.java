@@ -18,11 +18,7 @@ import java.util.Optional;
 public class StudentServiceImpl implements StudentService {
 
     @Autowired
-    private final StudentReporsitory studentReporsitory;
-
-    public StudentServiceImpl(StudentReporsitory studentReporsitory) {
-        this.studentReporsitory = studentReporsitory;
-    }
+    private StudentReporsitory studentReporsitory;
 
 
     @Override

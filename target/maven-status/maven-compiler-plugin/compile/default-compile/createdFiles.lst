@@ -1,6 +1,8 @@
 service\StudentService.class
 App.class
 repository\StudentReporsitory.class
+controller\LectureController.class
+controller\LectureStudentController.class
 entity\LectureStudent.class
 repository\LecturerRepository.class
 repository\LectureStudentRepository.class
@@ -18,6 +20,13 @@ repository\LectureRepository.class
 service\LectureService.class
 entity\Student.class
 entity\Lecturer.class
+controller\StudentController.class
 entity\LectureSubject.class
 dto\LectureSubjectDto.class
+service\Impl\LecturerServiceImpl.class
+service\Impl\LectureStudentServiceImpl.class
+service\Impl\StudentServiceImpl.class
+controller\LectureSubjectController.class
+service\Impl\LectureSubjectServiceImpl.class
+controller\LecturerController.class
 entity\Lecture.class

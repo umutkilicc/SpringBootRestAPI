@@ -1,5 +1,6 @@
 package controller;
 
+import dto.LectureDto;
 import dto.LectureStudentDto;
 import dto.LectureSubjectDto;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +28,7 @@ public class LectureSubjectController {
         return lectureSubjectService.getAll();
     }
 
-    @GetMapping("/getall")
+    @GetMapping("/getbyid/{id}")
     public @ResponseBody Optional<LectureSubjectDto> getById(@PathVariable Integer id)
     {
         return lectureSubjectService.getById(id);

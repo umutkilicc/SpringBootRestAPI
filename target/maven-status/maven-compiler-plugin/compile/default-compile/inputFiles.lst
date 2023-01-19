@@ -1,4 +1,5 @@
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\dto\LectureDto.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\controller\LectureSubjectController.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\Impl\LectureServiceImpl.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\StudentService.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\entity\LectureStudent.java
@@ -7,12 +8,14 @@ C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\dto\LectureSubject
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\LectureSubjectService.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\entity\LectureSubject.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\controller\LectureController.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\controller\StudentController.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\Impl\LectureSubjectServiceImpl.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\dto\LecturerDto.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\controller\LectureStudentController.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\LectureStudentService.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\entity\Lecturer.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\repository\StudentReporsitory.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\Impl\StudentServiceImpl.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\repository\LecturerRepository.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\entity\Student.java
 C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\App.java
