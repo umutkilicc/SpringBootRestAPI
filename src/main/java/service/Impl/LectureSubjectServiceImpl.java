@@ -40,22 +40,35 @@ public class LectureSubjectServiceImpl implements LectureSubjectService {
 
     @Override
     public Optional<LectureSubjectDto> getById(Integer id) {
-        return Optional.empty();
+        Optional<LectureSubjectDto> lectureSubjectDto = Optional.of(new LectureSubjectDto());
+        Optional<LectureSubject> lectureSubject = Optional.of(lectureSubjectRepository.getReferenceById(id));
+        entityToDto(lectureSubject.orElseGet(LectureSubject::new), lectureSubjectDto.get());
+        return lectureSubjectDto;
     }
 
     @Override
-    public LectureSubjectDto add(LectureSubjectDto data) {
-        return null;
+    public LectureSubjectDto add(LectureSubjectDto lectureSubjectDto) {
+        LectureSubject lectureSubject = new LectureSubject();
+        dtoToEntity(lectureSubjectDto, lectureSubject);
+        lectureSubjectRepository.save(lectureSubject);
+        entityToDto(lectureSubject, lectureSubjectDto);
+        return lectureSubjectDto;
     }
 
     @Override
-    public void delete(LectureSubjectDto data) {
-
+    public void delete(LectureSubjectDto lectureSubjectDto) {
+        LectureSubject lectureSubject = new LectureSubject();
+        dtoToEntity(lectureSubjectDto, lectureSubject);
+        lectureSubjectRepository.delete(lectureSubject);
     }
 
     @Override
-    public LectureSubjectDto update(LectureSubjectDto data) {
-        return null;
+    public LectureSubjectDto update(LectureSubjectDto lectureSubjectDto) {
+        Optional<LectureSubjectDto> optionalLectureSubjectDto = Optional.of(new LectureSubjectDto());
+        LectureSubject lectureSubject = new LectureSubject();
+        dtoToEntity(optionalLectureSubjectDto.get(),lectureSubject);
+        entityToDto(lectureSubjectRepository.save(lectureSubject), lectureSubjectDto);
+        return lectureSubjectDto;
     }
 
     protected void entityToDto(LectureSubject lectureSubject, LectureSubjectDto lectureSubjectDto) {

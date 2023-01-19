@@ -18,16 +18,13 @@ public class LectureStudentController {
 
     @Autowired
     private final LectureStudentService lectureStudentService;
-    @Autowired
-    private LectureStudentRepository lectureStudentRepository;
-
     public LectureStudentController(LectureStudentService lectureStudentService) {
         this.lectureStudentService = lectureStudentService;
     }
 
 
     @GetMapping("/getall")
-    private @ResponseBody List<LectureStudentDto> getAll(Integer id)
+    public @ResponseBody List<LectureStudentDto> getAll()
     {
         return lectureStudentService.getAll();
     }
@@ -39,19 +36,19 @@ public class LectureStudentController {
     }
 
     @PostMapping("/add")
-    private void add(@RequestBody LectureStudentDto lectureStudentDto)
+    public void add(@RequestBody LectureStudentDto lectureStudentDto)
     {
         lectureStudentService.add(lectureStudentDto);
     }
 
     @DeleteMapping("/delete")
-    private void delete(@RequestBody LectureStudentDto lectureStudentDto)
+    public void delete(@RequestBody LectureStudentDto lectureStudentDto)
     {
         lectureStudentService.delete(lectureStudentDto);
     }
 
     @PutMapping("/update")
-    private void update(@RequestBody LectureStudentDto lectureStudentDto)
+    public void update(@RequestBody LectureStudentDto lectureStudentDto)
     {
         lectureStudentService.update(lectureStudentDto);
     }

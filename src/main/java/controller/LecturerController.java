@@ -22,32 +22,32 @@ public class LecturerController {
     }
 
     @GetMapping("/getall")
-    private @ResponseBody List<LecturerDto> getAll()
+    public @ResponseBody List<LecturerDto> getAll()
     {
         return lecturerService.getAll();
     }
 
     @GetMapping("/getbyid/{id}")
-    private @ResponseBody Optional<LecturerDto> getById(@PathVariable Integer id)
+    public @ResponseBody Optional<LecturerDto> getById(@PathVariable Integer id)
     {
         return lecturerService.getById(id);
     }
 
     @PostMapping("/add")
-    private @ResponseBody  LecturerDto add(@RequestBody LecturerDto lecturerDto)
+    public @ResponseBody  LecturerDto add(@RequestBody LecturerDto lecturerDto)
     {
         return lecturerService.add(lecturerDto);
     }
 
     @DeleteMapping("/delete")
-    private @ResponseBody void delete(@RequestBody LecturerDto lecturerDto)
+    public @ResponseBody void delete(@RequestBody LecturerDto lecturerDto)
     {
         lecturerService.delete(lecturerDto);
     }
 
 
     @PutMapping("/update")
-    private @ResponseBody LecturerDto update(@RequestBody LecturerDto lecturerDto)
+    public @ResponseBody LecturerDto update(@RequestBody LecturerDto lecturerDto)
     {
         return lecturerService.update(lecturerDto);
     }

@@ -1,24 +1,29 @@
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/dto/LecturerDto.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/App.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/service/LectureStudentService.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/service/LecturerService.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/entity/Lecture.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/dto/LectureDto.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/service/StudentService.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/service/BaseService.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/service/LectureService.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/repository/LectureStudentRepository.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/dto/LectureSubjectDto.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/repository/LectureSubjectRepository.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/controller/LectureControlller.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/dto/StudentDto.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/dto/LectureStudentDto.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/service/Impl/LectureServiceImpl.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/entity/LectureStudent.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/repository/LectureRepository.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/repository/StudentReporsitory.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/service/LectureSubjectService.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/repository/LecturerRepository.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/entity/Student.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/entity/Lecturer.java
-/Users/umutkilic/Desktop/Java Eğitimi/UniversitySpringBootAPI/src/main/java/entity/LectureSubject.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\dto\LectureDto.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\Impl\LectureServiceImpl.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\StudentService.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\entity\LectureStudent.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\LectureService.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\dto\LectureSubjectDto.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\LectureSubjectService.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\entity\LectureSubject.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\controller\LectureController.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\Impl\LectureSubjectServiceImpl.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\dto\LecturerDto.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\controller\LectureStudentController.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\LectureStudentService.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\entity\Lecturer.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\repository\StudentReporsitory.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\repository\LecturerRepository.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\entity\Student.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\App.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\repository\LectureStudentRepository.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\Impl\LecturerServiceImpl.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\dto\LectureStudentDto.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\BaseService.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\Impl\LectureStudentServiceImpl.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\repository\LectureRepository.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\repository\LectureSubjectRepository.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\entity\Lecture.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\controller\LecturerController.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\service\LecturerService.java
+C:\Users\xukilic\IdeaProjects\SpringBootRestAPI\src\main\java\dto\StudentDto.java
